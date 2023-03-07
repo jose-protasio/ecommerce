@@ -82,7 +82,7 @@ const products = [
 //here it defines that the first product will appear on the screen by default
 let choosenProduct = products[0];
 
-//here the propety *querySelector selects the elements we made.
+//here the propety *querySelector* selects the elements we made.
 const currentProductImg = document.querySelector(".productImg");
 const currentProductTitle = document.querySelector(".productTitle");
 const currentProductPrice = document.querySelector(".productPrice");
@@ -133,12 +133,12 @@ const payment = document.querySelector(".payment");
 const close = document.querySelector(".close");
 
 productButton.addEventListener("click", () =>{
-    payment.style.display="flex"
-})
+    payment.style.display="flex";
+});
 
 close.addEventListener("click", () =>{
-    payment.style.display="none"
-})
+    payment.style.display="none";
+});
 
 
 
