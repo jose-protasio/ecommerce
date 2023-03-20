@@ -20,7 +20,7 @@ const products = [
     {
         id: 2,
         title: "Air Jordan",
-        price: 109,
+        price: 129,
         colors: [
             {
                 code: "lightgray",
@@ -35,7 +35,7 @@ const products = [
     {
         id: 3,
         title: "Blazer ",
-        price: 109,
+        price: 119,
         colors: [
             {
                 code: "lightgray",
@@ -139,6 +139,7 @@ productButton.addEventListener("click", () =>{
 close.addEventListener("click", () =>{
     payment.style.display="none";
 });
+
 
 
 
