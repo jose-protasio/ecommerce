@@ -4,27 +4,27 @@ const menuItems = document.querySelectorAll(".menuItem");
 const products = [
     {
         id: 1,
-        title: "Air force",
-        price: 119,
+        title: "Coluna de fogo",
+        price: "Grito de Guerra",
         colors: [
             {
                 code: "black",
-                img: "img/air.png",
+                img: "img/Coluna de  fogo2.jpg",
             },
             {
                 code: "darkblue",
-                img: "img/air2.png",
+                img: "img/Coluna de  fogo2.jpg",
             },
         ],
     },
     {
         id: 2,
-        title: "Air Jordan",
-        price: 129,
+        title: "Sarça ardente",
+        price: "Grito de Guerra",
         colors: [
             {
                 code: "lightgray",
-                img: "img/jordan.png",
+                img: "img/sarça.png",
             },
             {
                 code: "green",
@@ -34,8 +34,8 @@ const products = [
     },
     {
         id: 3,
-        title: "Blazer ",
-        price: 119,
+        title: "Querubins",
+        price: "Grito de Guerra",
         colors: [
             {
                 code: "lightgray",
@@ -49,31 +49,46 @@ const products = [
     },
     {
         id: 4,
-        title: "Crater",
-        price: 129,
+        title: "Lírios do vale",
+        price: "Grito de Guerra",
         colors: [
             {
                 code: "black",
-                img: "img/crater.png",
+                img: "img/Lírios do vale.jpg",
             },
             {
                 code: "lightgray",
-                img: "img/crater2.png",
+                img: "img/Lírios do vale.jpg",
             },
         ],
     },
     {
         id: 5,
-        title: "Hippie",
-        price: 99,
+        title: "Rosa de Saron",
+        price: "Grito de Guerra",
         colors: [
             {
                 code: "gray",
-                img: "img/hippie.png",
+                img: "img/Rosa de Saron.jpg",
             },
             {
                 code: "black",
                 img: "img/hippie2.png",
+            },
+        ],
+    },
+    {
+        id: 6,
+        title: "Águias do monte",
+        price: "Grito de Guerra",
+        colors: [
+            {
+                code: "gray",
+                img: "img/aguia.jpg",
+            },
+            {
+                code: "black",
+                img: "img/aguia.jpg",
             },
         ],
     },
@@ -139,6 +154,15 @@ productButton.addEventListener("click", () =>{
 close.addEventListener("click", () =>{
     payment.style.display="none";
 });
+
+function search() {
+    var searchTerm = document.getElementById("search-input").value;
+    document.getElementById("search-button").addEventListener("click", function() {
+        search();
+      });
+      
+  }
+  
 
 
 
