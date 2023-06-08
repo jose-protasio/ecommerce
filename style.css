@@ -187,6 +187,10 @@ nav{
     color: cornsilk;
 }
 
+.ideais{
+    text-align: center;
+}
+
 .features{
     display: flex;
     align-items: center;
@@ -416,13 +420,13 @@ nav{
     width: 100%;
 }
 
-.newSeason{
+/* .newSeason{
     display: flex;
-}
+} */
 
 .nsItem{
     flex: 1;
-    background-color: black;
+    background-color: teal;
     color: white;
     display: flex;
     flex-direction: column;
@@ -444,6 +448,7 @@ nav{
     padding: 15px;
     font-weight: 600;
     cursor: pointer;
+    border-radius: 3%;
 }
 
 footer{

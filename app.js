@@ -17,6 +17,7 @@ const products = [
             },
         ],
     },
+    
     {
         id: 2,
         title: "Sarça ardente",
@@ -115,7 +116,7 @@ menuItems.forEach((item, index) => {
 
         //change texts of currentProduct
         currentProductTitle.textContent = choosenProduct.title;
-        currentProductPrice.textContent = "$" + choosenProduct.price;
+        currentProductPrice.textContent = choosenProduct.price;
         currentProductImg.src = choosenProduct.colors[0].img;
 
         //assing new color
@@ -160,7 +161,6 @@ function search() {
     document.getElementById("search-button").addEventListener("click", function() {
         search();
       });
-      
   }
   
 
