@@ -9,7 +9,7 @@ body{
 }
 
 nav{
-    background-color: #111;
+    background-color: #C2191C;
     color: white;
     padding: 20px 50px;
     height: 140px;
@@ -28,7 +28,7 @@ nav{
 .search{
     display: flex;
     align-items: center;
-    background-color: gray;
+    background-color: #FFFFFF;
     padding: 10px 20px;
     border-radius: 10px;
 }
@@ -57,7 +57,7 @@ nav{
 .menuItem{
     margin-right: 50px;
     cursor: pointer;
-    color: lightgray;
+    color: #FFFFFF;
     font-weight: 400;
 }
 
@@ -67,7 +67,7 @@ nav{
 
 
 .slider{
-    background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+    background: url("img/fundo-cafe.webp");
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
     overflow: hidden;
 }
@@ -81,7 +81,7 @@ nav{
 .sliderItem{
     width: 100vw;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     position: relative;
 }
