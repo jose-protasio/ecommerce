@@ -4,92 +4,92 @@ const menuItems = document.querySelectorAll(".menuItem");
 const products = [
     {
         id: 1,
-        title: "Coluna de fogo",
-        price: "Grito de Guerra",
+        title: "Cappucino Tradicional",
+        price: "Detalhes",
         colors: [
             {
                 code: "black",
-                img: "img/Coluna de  fogo2.jpg",
+                img: "img/cafe1.jpg",
             },
             {
                 code: "darkblue",
-                img: "img/Coluna de  fogo2.jpg",
+                img: "img/cafe1.jpg",
             },
         ],
     },
     
     {
         id: 2,
-        title: "Sarça ardente",
-        price: "Grito de Guerra",
+        title: "Croissant de Chocolate",
+        price: "Detalhes",
         colors: [
             {
                 code: "lightgray",
-                img: "img/sarça.png",
+                img: "img/croissant.jpg",
             },
             {
                 code: "green",
-                img: "img/jordan2.png",
+                img: "img/croissant.jpg",
             },
         ],
     },
     {
         id: 3,
-        title: "Querubins",
-        price: "Grito de Guerra",
+        title: "Bolo de Cenoura com Chocolate",
+        price: "Detalhes",
         colors: [
             {
                 code: "lightgray",
-                img: "img/blazer.png",
+                img: "img/cenoura-chocolate.jpeg",
             },
             {
                 code: "green",
-                img: "img/blazer2.png",
+                img: "img/cenoura-chocolate.jpeg",
             },
         ],
     },
     {
         id: 4,
-        title: "Lírios do vale",
-        price: "Grito de Guerra",
+        title: "Escondidinho de Aipim",
+        price: "Detalhes",
         colors: [
             {
                 code: "black",
-                img: "img/Lírios do vale.jpg",
+                img: "img/escondidinho-aipim.jpg",
             },
             {
                 code: "lightgray",
-                img: "img/Lírios do vale.jpg",
+                img: "img/escondidinho-aipim.jpg",
             },
         ],
     },
     {
         id: 5,
-        title: "Rosa de Saron",
-        price: "Grito de Guerra",
+        title: "Donuts Morango",
+        price: "Detalhes",
         colors: [
             {
                 code: "gray",
-                img: "img/Rosa de Saron.jpg",
+                img: "img/tortinha-morango.jpg",
             },
             {
                 code: "black",
-                img: "img/hippie2.png",
+                img: "img/tortinha-morango.jpg",
             },
         ],
     },
     {
         id: 6,
-        title: "Águias do monte",
-        price: "Grito de Guerra",
+        title: "Donuts deChocolate",
+        price: "Detalhes",
         colors: [
             {
                 code: "gray",
-                img: "img/aguia.jpg",
+                img: "img/donuts-chocolate.jpg",
             },
             {
                 code: "black",
-                img: "img/aguia.jpg",
+                img: "img/donuts-chocolate.jpg",
             },
         ],
     },
