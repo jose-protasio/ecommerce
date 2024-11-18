@@ -80,7 +80,7 @@ const products = [
     },
     {
         id: 6,
-        title: "Donuts deChocolate",
+        title: "Donuts de Chocolate",
         price: "Detalhes",
         colors: [
             {
