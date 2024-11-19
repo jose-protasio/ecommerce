@@ -500,6 +500,9 @@ nav{
     transform: scale(1.05); /* Leve aumento no tamanho */
 }
 
+.productPrice{
+    color:#C2191C;
+}
 /*footer{
     display: flex; 
 }
